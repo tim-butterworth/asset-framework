@@ -10,6 +10,7 @@
 		E702BDD623DA9CBF003186B9 /* SampleHtmlFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E702BDCC23DA9CBF003186B9 /* SampleHtmlFramework.framework */; };
 		E702BDDB23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702BDDA23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift */; };
 		E702BDDD23DA9CBF003186B9 /* SampleHtmlFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E702BDCF23DA9CBF003186B9 /* SampleHtmlFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E702BDEA23DA9E21003186B9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E702BDE923DA9E21003186B9 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		E702BDD523DA9CBF003186B9 /* SampleHtmlFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleHtmlFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E702BDDA23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHtmlFrameworkTests.swift; sourceTree = "<group>"; };
 		E702BDDC23DA9CBF003186B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E702BDE923DA9E21003186B9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		E702BDCE23DA9CBF003186B9 /* SampleHtmlFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E702BDE823DA9DAB003186B9 /* www */,
 				E702BDCF23DA9CBF003186B9 /* SampleHtmlFramework.h */,
 				E702BDD023DA9CBF003186B9 /* Info.plist */,
 			);
@@ -84,6 +87,14 @@
 				E702BDDC23DA9CBF003186B9 /* Info.plist */,
 			);
 			path = SampleHtmlFrameworkTests;
+			sourceTree = "<group>";
+		};
+		E702BDE823DA9DAB003186B9 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				E702BDE923DA9E21003186B9 /* index.html */,
+			);
+			path = www;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E702BDEA23DA9E21003186B9 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +354,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = SampleHtmlFramework/www;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -355,8 +368,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Tim.SampleHtmlFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -365,6 +379,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = SampleHtmlFramework/www;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -378,8 +393,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Tim.SampleHtmlFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
