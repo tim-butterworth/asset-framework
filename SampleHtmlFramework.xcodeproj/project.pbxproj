@@ -11,6 +11,7 @@
 		E702BDDB23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702BDDA23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift */; };
 		E702BDDD23DA9CBF003186B9 /* SampleHtmlFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E702BDCF23DA9CBF003186B9 /* SampleHtmlFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E702BDEA23DA9E21003186B9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E702BDE923DA9E21003186B9 /* index.html */; };
+		E702BDEC23DB2128003186B9 /* WebViewResourcePointerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702BDEB23DB2128003186B9 /* WebViewResourcePointerClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		E702BDDA23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHtmlFrameworkTests.swift; sourceTree = "<group>"; };
 		E702BDDC23DA9CBF003186B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E702BDE923DA9E21003186B9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E702BDEB23DB2128003186B9 /* WebViewResourcePointerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewResourcePointerClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				E702BDE823DA9DAB003186B9 /* www */,
 				E702BDCF23DA9CBF003186B9 /* SampleHtmlFramework.h */,
 				E702BDD023DA9CBF003186B9 /* Info.plist */,
+				E702BDEB23DB2128003186B9 /* WebViewResourcePointerClass.swift */,
 			);
 			path = SampleHtmlFramework;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				TargetAttributes = {
 					E702BDCB23DA9CBF003186B9 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					E702BDD423DA9CBF003186B9 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -207,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E702BDEC23DB2128003186B9 /* WebViewResourcePointerClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +357,7 @@
 		E702BDE123DA9CBF003186B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = SampleHtmlFramework/www;
@@ -360,6 +366,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SampleHtmlFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,6 +376,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -377,6 +385,7 @@
 		E702BDE223DA9CBF003186B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = SampleHtmlFramework/www;
@@ -385,6 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SampleHtmlFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,6 +412,7 @@
 		E702BDE423DA9CBF003186B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SampleHtmlFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -419,6 +430,7 @@
 		E702BDE523DA9CBF003186B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SampleHtmlFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
