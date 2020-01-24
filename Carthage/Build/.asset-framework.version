@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "13e174bd845788e7796fbd313ab57419b39697a2",
+  "iOS" : [
+    {
+      "name" : "SampleHtmlFramework",
+      "hash" : "654cfe4bc82c2962ea74a950d769d4101fd621c98cd72f1ec438c238a4889293",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

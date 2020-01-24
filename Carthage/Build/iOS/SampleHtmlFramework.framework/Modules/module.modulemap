@@ -4,3 +4,8 @@ framework module SampleHtmlFramework {
   export *
   module * { export * }
 }
+
+module SampleHtmlFramework.Swift {
+    header "SampleHtmlFramework-Swift.h"
+    requires objc
+}
