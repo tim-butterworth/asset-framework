@@ -1,3 +1,3 @@
 import Foundation
 
-class WebViewResourePointerClass {}
+public class WebViewResourePointerClass {}
