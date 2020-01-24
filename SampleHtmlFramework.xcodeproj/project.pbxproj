@@ -11,7 +11,7 @@
 		E702BDDB23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702BDDA23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift */; };
 		E702BDDD23DA9CBF003186B9 /* SampleHtmlFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E702BDCF23DA9CBF003186B9 /* SampleHtmlFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E702BDEC23DB2128003186B9 /* WebViewResourcePointerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702BDEB23DB2128003186B9 /* WebViewResourcePointerClass.swift */; };
-		E702BDEF23DB35D3003186B9 /* www in Resources */ = {isa = PBXBuildFile; fileRef = E702BDEE23DB35D3003186B9 /* www */; };
+		E702BDF123DB44CC003186B9 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E702BDF023DB44CC003186B9 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 		E702BDDA23DA9CBF003186B9 /* SampleHtmlFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHtmlFrameworkTests.swift; sourceTree = "<group>"; };
 		E702BDDC23DA9CBF003186B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E702BDEB23DB2128003186B9 /* WebViewResourcePointerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewResourcePointerClass.swift; sourceTree = "<group>"; };
-		E702BDEE23DB35D3003186B9 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		E702BDF023DB44CC003186B9 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		E702BDC223DA9CBF003186B9 = {
 			isa = PBXGroup;
 			children = (
-				E702BDEE23DB35D3003186B9 /* www */,
+				E702BDF023DB44CC003186B9 /* assets */,
 				E702BDCE23DA9CBF003186B9 /* SampleHtmlFramework */,
 				E702BDD923DA9CBF003186B9 /* SampleHtmlFrameworkTests */,
 				E702BDCD23DA9CBF003186B9 /* Products */,
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E702BDEF23DB35D3003186B9 /* www in Resources */,
+				E702BDF123DB44CC003186B9 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

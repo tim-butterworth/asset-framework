@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "295b99571facd5443e8aee779ed3b01d1d7f5321",
+  "commitish" : "068201ae6e230037d2636d91d43f544f2fd9bbbf",
   "iOS" : [
     {
       "name" : "SampleHtmlFramework",
-      "hash" : "b411a2bed9aa6aba7e952c00c8489efa5cdeee3418adc316d26354208532913f",
+      "hash" : "e466e1322b8312ae2008e777ed0bf9d2c725129caf9728eb659d7d6574d93621",
       "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]
